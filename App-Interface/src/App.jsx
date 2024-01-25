@@ -1,7 +1,13 @@
-export default function App() {
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
+import Navbar from './components/Header/Navbar'
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-red-500">
-    Hello world!leenock
-  </h1>
+    <div className='bg-white'>
+      <Navbar />
+    </div>
   )
 }
+
+export default App
